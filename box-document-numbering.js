@@ -27,8 +27,8 @@ app.get('/', (req, res) => {
 
     let fileId = req.query.fileId;
     const authCode = req.query.authCode
-    const clientId = "f7jc1cw2jfy81s1ynd44a3at5qnx50of"
-    const clientSecret = "7sfealHN1ePcucpsTQ66Hph3oBt97rRy"
+    const clientId = ""
+    const clientSecret = ""
 
 
     axios.request({
